@@ -4,7 +4,7 @@ sm = StudentManager()
 
 while True:
     print("\n1. Add Student\n2. View Students\n3. Update Student\n4. Delete Student\n5. Exit")
-    choice = input("Choose: ")
+    choice = input("Choose option: ")
     if choice == '1':
         n = input("Name: ")
         a = int(input("Age: "))

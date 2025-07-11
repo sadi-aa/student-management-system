@@ -1,4 +1,5 @@
 from abc import ABC,abstractmethod
+
 class Person(ABC):
     def __init__(self,name,age):
         self.__name=name
@@ -7,7 +8,7 @@ class Person(ABC):
     @abstractmethod
     def details(self):
         pass
-class student(Person):
+class Student(Person):
     def __init__(self, name, age,id):
         super().__init__(name, age)
         self.__id=id
